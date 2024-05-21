@@ -1,0 +1,36 @@
+#controls{
+    display: flex;
+    justify-content: center;
+    border-color: black;
+    align-content: center;
+    gap: 10px;
+
+}
+
+#gameboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 610px;
+    height: 610px;
+
+}
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border-radius: 10%;
+    font-size: 50px;
+
+    border: black solid 1px ;
+}
+
+#gamefield{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
